@@ -1,0 +1,23 @@
+
+{
+  "version": 1,
+  "networkRules": [
+    {
+      "urlFilter": "||doubleclick.net^",
+      "resourceTypes": ["image", "xmlhttprequest"]
+    },
+    {
+      "urlFilter": "||googlesyndication.com^",
+      "resourceTypes": ["image", "xmlhttprequest"]
+    },
+    {
+      "urlFilter": "|https://motphimz.bz/ad88.webp|",
+      "resourceTypes": ["image"]
+    }
+  ],
+  "elementSelectors": [
+    "img[src=\"https://motphimz.bz/ad88.webp\"]",
+    ".ad-banner",
+    "[data-ad-slot]"
+  ]
+}
